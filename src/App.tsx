@@ -402,7 +402,7 @@ export const App = () => {
                   style={{ color: "#0cc44d" }}
                   className={appSt.productText}
                 >
-                  С учётом скидки 100 ₽
+                  С учётом скидки {refill === "Сразу на год" ? "1 000" : "100"} ₽
                 </Typography.Text>
               </>
             )}
